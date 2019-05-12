@@ -5,9 +5,11 @@ import static org.hamcrest.Matchers.hasItems;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import bean.Article;
-import bean.Response;
 import com.mashape.unirest.http.exceptions.UnirestException;
+import com.theguardian.bean.Article;
+import com.theguardian.bean.Response;
+import com.theguardian.client.GuardianContentApi;
+
 import junit.framework.TestCase;
 
 public class GuardianContentApiTest extends TestCase {

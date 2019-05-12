@@ -1,4 +1,4 @@
-package bean;
+package com.theguardian.bean;
 
 public class ResponseWrapper {
 

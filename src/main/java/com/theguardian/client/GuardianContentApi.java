@@ -1,15 +1,16 @@
+package com.theguardian.client;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import bean.Response;
-import bean.ResponseWrapper;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.mashape.unirest.http.HttpResponse;
 import com.mashape.unirest.http.ObjectMapper;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import com.mashape.unirest.request.HttpRequest;
+import com.theguardian.bean.Response;
+import com.theguardian.bean.ResponseWrapper;
 
 public class GuardianContentApi {
 
